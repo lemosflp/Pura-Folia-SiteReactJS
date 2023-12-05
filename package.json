@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.1.15",
+    "react-responsive-masonry": "^2.1.7"
+  },
+  "devDependencies": {
+    "@types/react-responsive-masonry": "^2.1.3"
+  }
+}
