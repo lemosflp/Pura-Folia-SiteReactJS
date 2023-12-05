@@ -46,8 +46,9 @@ const Header: React.FC = () => {
       </div>
 
       <button id="botao-voltar" style={{ display: 'none' }} onClick={voltarAoInicio}>
-        <FontAwesomeIcon icon={faArrowUp} style={{ fontSize: '30px' }} />
+      ↿
       </button>
+
     </header>
   );
 }

@@ -54,7 +54,95 @@
     font-weight: bold;
 }
 
-/* @media (max-width: 1450px) {
+
+.contato-form {
+    margin-top: 65px;
+  }
+  
+  .contato-form label {
+    flex-basis: 100%;
+    margin-bottom: 8px;
+  }
+  
+  .contato-form input,
+  .contato-form select {
+    flex-basis: calc(25% - 8px);
+    padding: 8px;
+    margin-right: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .contato-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #76D74B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 9px 30px rgba(140, 82, 255, 1);
+
+}
+  
+.contato-form button:hover {
+    box-shadow: 0px 9px 30px rgba(255, 102, 196, 1);
+}
+
+
+  @media (max-width: 767px) {
+    /* Estilos gerais para o formulário */
+.contato-form {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  /* Estilos para rótulos e inputs */
+  .contato-form label {
+    width: 100%;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+  }
+  
+  .contato-form input,
+  .contato-form select {
+    width: calc(100% - 16px); /* Largura total, considerando a margem */
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos para o botão */
+  .contato-form button {
+    width: calc(100% - 16px); /* Largura total, considerando a margem */
+    padding: 12px;
+    background-color: #76D74B;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 9px 30px rgba(140, 82, 255, 1);
+  }
+  
+  .contato-form button:hover {
+    box-shadow: 0px 9px 30px rgba(255, 102, 196, 1);
+  }
+  
+  @media (max-width: 767px) {
+    .contato-form label,
+    .contato-form input,
+    .contato-form select,
+    .contato-form button {
+      flex-basis: calc(100% - 16px); /* Largura total, considerando a margem */
+    }
+  }
+  
+  }
+  
+  @media (max-width: 1450px) {
     .container_about_all {
         margin-bottom: 5%;
     }
@@ -313,4 +401,4 @@
     .container_contato_all p {
         font-size: 0.5rem;
     }
-} */
+}
