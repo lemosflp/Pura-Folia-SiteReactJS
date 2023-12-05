@@ -1,8 +1,9 @@
-node_modules/*
-/.pnp
-.pnp.js
+./node_modules
+package-lock.json
 /coverage
 /build
+/.pnp
+.pnp.js
 
 .DS_Store
 .env.local
