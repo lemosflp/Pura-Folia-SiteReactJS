@@ -1,9 +1,8 @@
-import React, { useState } from 'react';
 import './Contato.css';
+import axios from 'axios';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTiktok } from '@fortawesome/free-brands-svg-icons';
-import axios from 'axios';
-
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -12,7 +11,7 @@ const Contato: React.FC = () => {
     customerName: '',
     customerEmail: '',
     phone: '',
-    type: '', // adulta ou infantil
+    type: '',
     year: '',
   });
 
@@ -28,8 +27,14 @@ const Contato: React.FC = () => {
     e.preventDefault();
     console.log('Dados do formulário:', formData);
     axios.post("http://localhost:3001/order", formData)
+    setFormData({
+      customerName: '',
+      customerEmail: '',
+      phone: '',
+      type: '',
+      year: '',
+    })
     toast("Dados enviados com sucesso!")
-    // Adicione lógica adicional aqui, como enviar os dados para o servidor, se necessário.
   };
 
   return (
