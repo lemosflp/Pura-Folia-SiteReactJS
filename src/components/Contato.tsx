@@ -4,6 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import axios from 'axios';
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 const Contato: React.FC = () => {
   const [formData, setFormData] = useState({
     customerName: '',
@@ -25,6 +28,7 @@ const Contato: React.FC = () => {
     e.preventDefault();
     console.log('Dados do formulário:', formData);
     axios.post("http://localhost:3001/order", formData)
+    toast("Dados enviados com sucesso!")
     // Adicione lógica adicional aqui, como enviar os dados para o servidor, se necessário.
   };
 
@@ -64,6 +68,19 @@ const Contato: React.FC = () => {
 
         <button type="submit">Enviar</button>
       </form>
+
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
 
       <div className='social-icons'>
         <a className='social-css' href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
