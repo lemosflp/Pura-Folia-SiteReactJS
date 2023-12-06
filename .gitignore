@@ -1,9 +1,5 @@
 node_modules
-./package-lock.json
-/coverage
-/build
-/.pnp
-.pnp.js
+package-lock.json
 
 .DS_Store
 .env.local
