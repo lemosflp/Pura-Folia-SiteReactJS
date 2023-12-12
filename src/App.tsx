@@ -7,6 +7,7 @@ import About from './components/About';
 import Card from './components/Card';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
+import Swiper from './components/Swiper'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Cabecalho />
       <About />
       <Card />
+      <Swiper />
       <Contato />
       <Footer />
     </div>

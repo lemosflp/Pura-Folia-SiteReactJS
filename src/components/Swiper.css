@@ -1,0 +1,17 @@
+/* COLORS
+PURPLE - #8C52FF
+PINK - #FF66C4
+ORANGE - #E2743E
+GREEN - #76D74B */
+
+.container {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color:  #8C52FF ;
+}
+
+.slide-item {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}

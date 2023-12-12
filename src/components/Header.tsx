@@ -34,8 +34,8 @@ const Header: React.FC = () => {
         <img src="/images/dinopng.png" alt="Logo Pura Folia" />
       </a>
       <nav>
-        <ul>
-          <li><a href="#home">Home</a></li>
+        <ul className='navbar-container'>
+          <li><a href="#">Home</a></li>
           <li><a href="#about">Sobre</a></li>
           <li><a href="#services">Serviços</a></li>
         </ul>
