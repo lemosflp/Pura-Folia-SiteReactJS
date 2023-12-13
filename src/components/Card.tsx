@@ -1,6 +1,7 @@
 import React from 'react';
 import './Card.css';
 
+
 const Card: React.FC = () => {
   return (
     <section className="container_card_all" id="services">
@@ -13,10 +14,11 @@ const Card: React.FC = () => {
         <p>A decoração é repleta de recursos modernos, como painel e tapete de LED, e mesas coloridas com variados temas à escolha. Nas festas adultas, contamos com poltronas, mesa rústica de madeira e uma mesa exclusiva para o bolo, além de elegantes lustres.!</p>
       </div>
       <div className="container_card_right">
-          <h3>Equipe</h3>
-          <p>Em todas as ocasiões especiais, contamos com uma equipe altamente capacitada, pronta para suprir todas as suas demandas! Garantindo tranquilidade e conforto, nossos serviços abrangem segurança, garçons, copeiras, monitores e até mesmo um animador de festa! Assim, você pode relaxar e desfrutar de momentos memoráveis com seus convidados!</p>
-        </div>
+        <h3>Equipe</h3>
+        <p>Em todas as ocasiões especiais, contamos com uma equipe altamente capacitada, pronta para suprir todas as suas demandas! Garantindo tranquilidade e conforto, nossos serviços abrangem segurança, garçons, copeiras, monitores e até mesmo um animador de festa! Assim, você pode relaxar e desfrutar de momentos memoráveis com seus convidados!</p>
+      </div>
     </section>
+
   );
 }
 

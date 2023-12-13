@@ -56,7 +56,12 @@
 
 
 .contato-form {
+    padding: 35px;
     margin-top: 65px;
+    background-color: #fffeff;
+    border-radius: 55px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
   }
   
   .contato-form label {

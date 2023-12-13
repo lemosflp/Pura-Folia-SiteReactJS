@@ -60,7 +60,7 @@ const Contato: React.FC = () => {
         </label>
 
         <label>
-          <select name="type" placeholder="Tipo de Festa" value={formData.type} onChange={handleChange}>
+          <select name="type"  value={formData.type} onChange={handleChange}>
             <option value="">Tipo de Festa</option>
             <option value="adulta">Adulto</option>
             <option value="infantil">Infantil</option>

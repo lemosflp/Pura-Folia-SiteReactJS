@@ -7,6 +7,7 @@ import About from './components/About';
 import Card from './components/Card';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
+import Swiper from './components/Swiper'
 
 import { Outlet } from 'react-router-dom';
 
@@ -19,6 +20,7 @@ function App() {
       <Cabecalho />
       <About />
       <Card />
+      <Swiper />
       <Contato />
       <Outlet/>
       <Footer />
