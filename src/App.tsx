@@ -8,6 +8,8 @@ import Card from './components/Card';
 import Contato from './components/Contato';
 import Footer from './components/Footer';
 
+import { Outlet } from 'react-router-dom';
+
 
 function App() {
 
@@ -18,6 +20,7 @@ function App() {
       <About />
       <Card />
       <Contato />
+      <Outlet/>
       <Footer />
     </div>
   );
